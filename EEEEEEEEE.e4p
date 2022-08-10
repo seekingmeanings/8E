@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!DOCTYPE Project SYSTEM "Project-6.1.dtd">
 <!-- eric project file for project EEEEEEEEE -->
-<!-- Saved: 2022-08-10, 20:58:18 -->
+<!-- Saved: 2022-08-10, 21:53:02 -->
 <!-- Copyright (C) 2022 ,  -->
-<Project version="5.1">
+<Project version="6.1">
   <Language></Language>
   <Hash>dbc7011adfddd23594191b9b8ce3c28e25c2a607</Hash>
-  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProgLanguage mixed="1">Python3</ProgLanguage>
   <ProjectType>Console</ProjectType>
   <Description>Python compyler for the EEEEEEEE language.</Description>
   <Version>0.1</Version>
@@ -15,9 +15,15 @@
   <Eol index="1"/>
   <Sources>
     <Source>__init__.py</Source>
+    <Source>compiler.py</Source>
   </Sources>
   <Others>
     <Other>.gitignore</Other>
+    <Other>Makefile.mak</Other>
+    <Other>README.md</Other>
+    <Other>doc</Other>
+    <Other>examples</Other>
+    <Other>makefile</Other>
   </Others>
   <Vcs>
     <VcsType>Git</VcsType>
@@ -139,4 +145,46 @@
     <FiletypeAssociation pattern="README.*" type="OTHERS"/>
     <FiletypeAssociation pattern="makefile" type="OTHERS"/>
   </FiletypeAssociations>
+  <Make>
+    <MakeParameters>
+      <dict>
+        <key>
+          <string>MakeEnabled</string>
+        </key>
+        <value>
+          <bool>True</bool>
+        </value>
+        <key>
+          <string>MakeExecutable</string>
+        </key>
+        <value>
+          <string></string>
+        </value>
+        <key>
+          <string>MakeFile</string>
+        </key>
+        <value>
+          <string></string>
+        </value>
+        <key>
+          <string>MakeParameters</string>
+        </key>
+        <value>
+          <string></string>
+        </value>
+        <key>
+          <string>MakeTarget</string>
+        </key>
+        <value>
+          <string></string>
+        </value>
+        <key>
+          <string>MakeTestOnly</string>
+        </key>
+        <value>
+          <bool>True</bool>
+        </value>
+      </dict>
+    </MakeParameters>
+  </Make>
 </Project>
