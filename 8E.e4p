@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-6.1.dtd">
-<!-- eric project file for project EEEEEEEEE -->
-<!-- Saved: 2022-08-10, 23:40:09 -->
+<!-- eric project file for project 8E -->
+<!-- Saved: 2022-08-11, 22:07:25 -->
 <!-- Copyright (C) 2022 ,  -->
 <Project version="6.1">
   <Language></Language>
@@ -22,6 +22,8 @@
     <Other>README.md</Other>
     <Other>doc</Other>
     <Other>examples</Other>
+    <Other>test.in</Other>
+    <Other>test.out</Other>
   </Others>
   <Vcs>
     <VcsType>Git</VcsType>
@@ -185,4 +187,29 @@
       </dict>
     </MakeParameters>
   </Make>
+  <Documentation>
+    <DocumentationParams>
+      <dict>
+        <key>
+          <string>ERIC4DOC</string>
+        </key>
+        <value>
+          <dict>
+            <key>
+              <string>outputDirectory</string>
+            </key>
+            <value>
+              <string>doc</string>
+            </value>
+            <key>
+              <string>qtHelpEnabled</string>
+            </key>
+            <value>
+              <bool>False</bool>
+            </value>
+          </dict>
+        </value>
+      </dict>
+    </DocumentationParams>
+  </Documentation>
 </Project>
