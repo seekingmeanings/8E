@@ -1,15 +1,16 @@
 # **EEEEEEEE - the EEEEEEEEasiest programming language**
 
-# Introduction
-EEEEEEEE (later referenced as "8E") is a new direct programming language that focusses on a direct hadware manipulation.
-That way the compiler is reduced to reduce memory use and make the process of compiling 8E even more efficent and fast.
+# Features
+EEEEEEEE (later referenced as "8E") is a direct programming language that uses direct code manipulation to convert the 8E byte code into executables.
+That compiler is very memory efficient and thus make the process of compiling 8E even more efficent and fast.
 8E can be compiled and executed on nearly every system. Source Code files usually end wth _.EEEEEEEE_
 
 
-# language
+# Language
 The standert of 8E is documented and can be found in _docs/_.
 There is in addition the source code of some example programms in _examples/_ wich can be compiled and tested. Further information
 about these can be found in the same directory.
+
 
 # Installation
 There are to multiple ways of getting a compiler for 8E running on your system:
@@ -17,7 +18,8 @@ There are to multiple ways of getting a compiler for 8E running on your system:
     Download one of the compiler in your desired language. 
     Compile a 8E program by executing the downloaded compiler in your shell
 
-  2. **High speed** 
+  2. **High speed**
+			Compile the source code using codon
     
     
 
