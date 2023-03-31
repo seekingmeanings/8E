@@ -23,7 +23,7 @@ def str_to_int(s:str): #TODO: delete it, STUPID–ME, USE INT()
 def compile():
     #TODO: Implement other encodings
     if not args.superchar.isascii() and args.encoding != "ASCII":
-        raise RuntimeError("only ASCII super-characters and ASCII encoding works")
+        raise NotImplementedError("only ASCII super-characters and ASCII encoding works")
     
     """
     Analyze source code and compile
