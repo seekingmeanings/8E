@@ -2,7 +2,7 @@
 
 # Features
 EEEEEEEE (later referenced as "8E") is a direct programming language that uses direct code manipulation to convert the 8E byte code into executables.
-That compiler is very memory efficient and thus make the process of compiling 8E even more efficent and fast.
+The compiler is very memory efficient and thus make the process of compiling 8E even more efficent and fast.
 8E can be compiled and executed on nearly every system. Source Code files usually end wth _.EEEEEEEE_
 
 
